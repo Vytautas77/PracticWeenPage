@@ -1,0 +1,87 @@
+.mainBox{
+    border: none;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ .mainBoxBackground{
+    background-image: url(../VeenImg/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainBoxBackground1{
+    background-image: url(../VeenImg/img2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainBoxBackground2{
+    background-image: url(../VeenImg/img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mainBoxBackground3{
+    background-image: url(../VeenImg/img4.jpg);
+    background-position: center;
+    background-size: cover; 
+} 
+.mainBox div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 30px;
+    background-color:rgb(142, 110, 172) ;
+    color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.mainBox div img {
+    height: 15px;
+}
+.mainBox h2 {
+    background-color: white;
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+}
+.footer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerDiv{
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+    Display: flex;
+    justify-content: center;
+
+}
+.footerDiv img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.footer p {
+    text-align: center;
+}
+.button{
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.button img {
+    width: 20px;
+}
+.footerDiv  .dott {
+    width: 10px;
+    height: 10px;
+}
