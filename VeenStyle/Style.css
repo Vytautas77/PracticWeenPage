@@ -9,13 +9,15 @@ body{
     position: fixed;
 }
 header {
-      margin: auto;
-    width: 80%;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
     height: 180px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    box-sizing: border-box;
     
 }
 .headerSocial {
@@ -49,8 +51,8 @@ header h1 span {
     height: 20px;
 }
 .links {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+
     height: 50px;
     text-align: center;
     box-sizing: border-box;
